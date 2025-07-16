@@ -19,7 +19,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://pallavimusic7:XH8zoUxHMuhl4
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 20000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002302799359))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002732539322))
 
 # Get this value from @purvi_music_bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 8142003954))
@@ -66,8 +66,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @king_string_session_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQGajcYALbKzNP8g15WSFFtMMoJQreIMhie6irfMkrcLFMqJ5Vllw5bv66TkgLl6ZzC6xTeIpNDvtzYkT1mzD6xo6geEofXG4_BWw5GQ2cbExv1EyF6M7NZjJSRy60TNrQyo_NnUHoZHD6V_N3jQko4VWRNIQ1RNwyk_Xd4B1yViZ1r6otWKysqgk42ViZvkXmXjDShK2nllGABoqbzUQ3o1CLkQymgiI02pnrTm8zuynDl2cgf4Id4CfpR_qYwNP9bmdeXyexAn3DuLpiQbkwfOmcYoN6atTdajDrtx0JU_SxGR1-eZdMD1DVbxpnuiTMPbmrU348biV-C3BFCEGb2kspH85QAAAAHKXA1NAA")
-STRING2 = getenv("STRING_SESSION2", "BQGajcYAOmI5qsE80u8sgT32CY9E3tXeHfrFPn63h-V1NagerXTVElM1vxKV_Gc6XBdYzQTOXE0JPz4FV_pLnnmiDrQ1P8mzuDjCq3_Zf_wV3JMcqrhK1XNUkvtJQ5TGqV6Gn9g9zlhHd2o8fojJj9GCr_dMUAN5BcQ-vkeGYT-XnhcoPztPUKyqB6kKXSUnprb09QHiO5hfoEYNOCaNWVFagyr9ds99R3qsRD1zQmnqA45HER_DtwjkIQb4shTTGk2MRgcdESNpJoe8fmWn-XUilEfSUg2DaeUuHUWlDOZpC00BgIvPSUwYiJoto4nYoYDSAeQ2gRatGyC4yAUIxOu1CT7wWgAAAAHHSubSAA")
+STRING1 = getenv("STRING_SESSION", "BQGajcYABFuo7vZf25LSibLQmJOrMfsPVXCjDtrbKdh_XazVSPkBoWIUto8pCH73O_17np-2jnd6dw6H5HGsRLamFvx3v65SUSy4bdblm6zjUCwMTMZ4JtIkgRLHSLUlfTWJNDxxrCb5zTn7IIK1rNe-w-rym2e3ZV16qx94ldWYAlKeveUZNq0av15UmY7FG8K9Al8w4xF8fYAsB83611J6iZMW1pxJqxIVL-5XamdIvfDv85Ep4rYCuo8ryfzbs_NLNanEmn5BkOxTTAsBDDf_vPg5io524zTgR046slCqS42caq-6FjJKl2b0jCFtZ-yNjdxYZZzlpsT6hlNSYQ_fy3ZmzgAAAAHKXA1NAA")
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
