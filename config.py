@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "28294093"))
-API_HASH = getenv("API_HASH", "f24d982c45ab2f69a6cb8c0fee9630bd")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7569306898:AAHYH63zVYJtl_qIw31Lvs87wXu69c3127I")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://pallavimusic7:XH8zoUxHMuhl4v4i@cluster0.kycoyiq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 20000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002691627299))
+LOGGER_ID = int(getenv("LOGGER_ID", ))
 
 # Get this value from @purvi_music_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 8142003954))
+OWNER_ID = int(getenv("OWNER_ID", ))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -41,7 +41,7 @@ GIT_TOKEN = getenv(
 
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
 YT_API_KEY = "xbit_0000743191821303754064"
-COOKIES_URL=getenv("COOKIES_URL" , "https://gist.githubusercontent.com/sparrow9616/f29fc6588086a3c72d92dd9c03773350/raw/4229f3f4aab4a6693fc0794d136d30f54d67ae85/gistfile1.txt")
+
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RiyaUpdates")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Kittusupport")
@@ -69,7 +69,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", "BQGajcYAVxEMKAx_h8hebChR0MWVKTMbMZ43Ob9_Pn1pmtcesWQBj4rbn0K-X4k_LxhT9WkAj7vMeAC2OvDa9wGYbAdxWOwmZEsy8VeK8u7wWtP-7xTODqFeoBimLJjgEvcAwsx8U68EJ7qp-cvbU70aJvfa3yNic8OwKZQjmmFkdDocbeGHxXM6mEywASYWEh8MPe2m2FijI4AZ1MDYOPIRAH8tSaJ_0IMiUPqGhZLL00vIZncIOk-cpPXKX1PjRmRSORooMhIGs1npnbYUOc0pRmhbqx762310_2WTgX7ggtloEw2gn893_-APnvkXpxbGMh4rrkkcZv_R6hoW1Kqp1Yw5QQAAAAGf3xnqAA")
+STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
 
