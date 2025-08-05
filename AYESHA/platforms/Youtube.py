@@ -18,8 +18,7 @@ import base64
 from AYESHA import LOGGER
 from AYESHA.utils.database import is_on_off
 from AYESHA.utils.formatters import time_to_seconds
-from config import YT_API_KEY, YTPROXY_URL as YTPROXY
-
+from config import BASE_API_KEY, BASE_API_URL
 logger = LOGGER(__name__)
 
 def cookie_txt_file():
