@@ -11,10 +11,10 @@ API_ID = int(getenv("API_ID", "28294093"))
 API_HASH = getenv("API_HASH", "f24d982c45ab2f69a6cb8c0fee9630bd")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "8015539754:AAHVyxdDyrT4pETVqV4uJ28cGlIZz0G2v9Y")
+BOT_TOKEN = getenv("BOT_TOKEN", )
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://theriyamusic94:f67KlgTyzr3TTutn@cluster0.lym5x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 20000))
 
@@ -40,8 +40,8 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 
-BASE_API_URL = getenv("BASE_API_URL", "https://xyz.spotifytech.shop")
-BASE_API_KEY = getenv("BASE_API_KEY", "229fb22d45987fc615229717478bacc1")
+YOUR_API_URL = getenv("YOUR_API_URL", "http://46.38.237.240:8000")
+YOUR_API_KEY = getenv("YOUR_API_KEY", "04baba1da8ac450895f92de76518ec63")
 
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RiyaUpdates")
@@ -67,11 +67,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @king_string_session_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQFNtIsAX-xgeh0Sqnszl4xP-pPghjMderL9vkMJtN_uRuBSo0xcTAKfCF5DazE0eo6XnnM_Ijf5aCm7XvD8gqgsXfv-tQzE5Dp0u_pM-b2VWjSIHJNGrpwzcJVqvPrZwn6bMUJzg3VvNz-JCZcrWG1PFsVkidEIM11kpqeUb_QxhT8We6XU128C7fWl0iWuy8fO6S6KbAownUArnho8YN2zFNB2JjTvSOoPxwtjt3DBzCK1HFrgEsU9lI7Egryc2LkxeKq5gd9ljMASRf8TsQZ0wmEymhMRXfdqQpRF8Fu39tOxGlp0mgUlq8rdwHQas23sDz8f73Ao5cFkpq4yngVdc8yScgAAAAHnVDvzAA")
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("STRING_SESSION", "BQFNtIsAX-xgeh0Sqnszl4xP-pPghjMderL9vkMJtN_uRuBSo0xcTAKfCF5DazE0eo6XnnM_Ijf5aCm7XvD8gqgsXfv-tQzE5Dp0u_pM--JCZcrWG1P)
+STRING2 = getenv("STRING_SESSION2",_SESSION5", None)
 
 
 BANNED_USERS = filters.user()
