@@ -44,8 +44,8 @@ YOUR_API_URL = getenv("YOUR_API_URL", "http://46.38.237.240:8000")
 YOUR_API_KEY = getenv("YOUR_API_KEY", "04baba1da8ac450895f92de76518ec63")
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RiyaUpdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/RIYA_CHAT_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mahadev_j")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/mahadev_j")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
