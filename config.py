@@ -40,8 +40,9 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 
-YOUR_API_URL = getenv("YOUR_API_URL", "http://46.38.237.240:8000")
-YOUR_API_KEY = getenv("YOUR_API_KEY", "04baba1da8ac450895f92de76518ec63")
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
+API_KEY = getenv("API_KEY", 'NxGBNexGenBotsdd043c') #
 
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mahadev_j")
