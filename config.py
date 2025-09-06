@@ -45,8 +45,8 @@ VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
 API_KEY = getenv("API_KEY", 'NxGBNexGenBotsdd043c') #
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mahadev_j")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/mahadev_j")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SexGrows")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+ZQ0yyBQ0jYU0ZjFl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
